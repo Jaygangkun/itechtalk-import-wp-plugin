@@ -1,0 +1,66 @@
+.itt-page-container {
+    max-width: 500px;
+}
+
+.itt-wrap {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.itt-field {
+    position: relative;
+    margin: 0;
+    padding: 15px 12px;
+}
+
+.itt-field .itt-label {
+    vertical-align: top;
+    margin: 0 0 10px;
+}
+
+.itt-field .itt-label label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.itt-field .itt-input {
+    vertical-align: top;
+}
+
+.itt-field input[type="text"] {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.button-has-loader {
+    display: flex !important;
+    padding: 5px 10px !important;
+    align-items: center;
+}
+
+.button-loader {
+    border: 3px solid #cdc6c6; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    margin-left: 10px;
+    display: none;
+}
+
+.loading .button-loader {
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
